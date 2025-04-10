@@ -3,6 +3,7 @@ GreenDen is a sleek and responsive frontend project for a plant e-commerce platf
 📁 Tech Stack
 
 Tailwind CSS – Utility-first CSS framework
+
 HTML5 – Semantic and accessible structure
 
 🚀 livelink
