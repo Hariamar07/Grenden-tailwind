@@ -1,0 +1,107 @@
+<style>
+    .container{
+        background-color: aqua;
+
+    }
+    .header{
+        background-color: rgb(26, 110, 110);
+        height: 50px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+    
+
+    }
+    .footer{
+        background-color:rgb(26, 110, 110) ;
+        height: 50px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+
+        
+
+    }
+
+
+    .middle{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+       
+        
+    }
+
+    .right__2row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color:yellow ;
+        height: 100px;
+        margin: 5px;
+    
+       
+    }
+    .right__2row-1{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+      
+    
+        
+    }
+    .right__2row-2{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+     
+    }
+    .right__2row-3{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .left{
+        background-color:green;
+        height: 210px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+    }
+    .right__1row{
+        background-color: orange;
+        height: 100px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+       
+    }
+
+   
+</style>
+
+
+
+
+<div class="container">
+    <div class="header">header</div>
+    <div class="middle">
+        <div class="left">aside</div>
+        <div class="right">
+            <div class="right__1row">article</div>
+            <div class="right__2row">
+                <div class="right__2row-1">image</div>
+                <div class="right__2row-2">image</div>
+                <div class="right__2row-3">image</div>
+
+
+            </div>
+
+        </div>
+    
+    </div>
+    <div class="footer">footer</div>
+
+</div>
